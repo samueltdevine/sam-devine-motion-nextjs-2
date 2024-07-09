@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
+}
+
+.logoHolder {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-style: italic;
+  font-size: x-large;
+  font-weight: 600;
+  color: #fd4f00;
+}
+.linkList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.linkList li {
+  padding: 10px;
+}
